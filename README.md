@@ -8,11 +8,11 @@ This is To make multithread CriticalSection for waiting Client
 
 # Usage
 
-Please use the windows API GUI resource application for runnning that
+"We will create a waiting state immediately upon starting. 
 
-when you give some request to this pipe server
+If the cancel button is pressed, the IDOK effect will be triggered, 
 
-this would be effective same EXIT_SUCCESS
+and when a message is sent from the client, the server will release the waiting state."
 
  
 Thank you!
